@@ -58,5 +58,5 @@ def html_table():
     return render_template('pristine_dashboard.html',  tables=[urls.to_html(escape=False,index=False)])
 
 if __name__ == '__main__':
-    webbrowser.open_new('http://127.0.0.1:2000/')
+    webbrowser.open_new('/')
     app.run(port=2000)
