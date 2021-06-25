@@ -40,7 +40,7 @@ def run_in_terminal(command):
 
 @app.route('/tables')
 def show_tables():
-    df = pd.read_csv('/Users/tushargupta/personal_proj/internal_dashboard/application_code/template/pristine_dashboard.csv')
+    df = pd.read_csv(os.path.join(os.getcwd(),'template/prsitine_dashboard.csv'))
     urls = df[df['Environment'].str.contains('http') == True]
     urls.columns=['Application Names','Urls']
     urls['Urls'] = urls['Urls'].apply(lambda x: '<a href="{0}" target="_blank">link</a>'.format(x))
@@ -58,5 +58,5 @@ def html_table():
     return render_template('pristine_dashboard.html',  tables=[urls.to_html(escape=False,index=False)])
 
 if __name__ == '__main__':
-    webbrowser.open_new('http://127.0.0.1:2000/')
-    app.run(port=2000)
+    #webbrowser.open_new('http://127.0.0.1:2000/')
+    app.run()
