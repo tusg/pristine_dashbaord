@@ -55,7 +55,7 @@ def show_tables():
 @app.route('/', methods=("POST", "GET"))
 def html_table():
     urls = show_tables()
-    return render_template('pristine_dashboard.html',  tables=[urls.to_html(escape=False,index=False)])
+    return render_template('template/pristine_dashboard.html',  tables=[urls.to_html(escape=False,index=False)])
 
 if __name__ == '__main__':
     #webbrowser.open_new('http://127.0.0.1:2000/')
