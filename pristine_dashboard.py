@@ -52,7 +52,7 @@ def show_tables():
     #services['Services'] = services.apply(lambda x: x['Services'].replace('Stop','Stop ' + x['Application Names'].split("_")[0]), axis=1)
     return urls
 
-@app.route('template/pristine_dashboard.html', methods=("POST", "GET"))
+@app.route('template/index.html', methods=("POST", "GET"))
 def html_table():
     urls = show_tables()
     return render_template('template/pristine_dashboard.html',  tables=[urls.to_html(escape=False,index=False)])
