@@ -23,10 +23,3 @@ sonar_url,https://sonar.gdn-app.com/sessions/new
 kibana_qa1_url,https://logging-qa1-gcp.gdn-app.com/login?nextUrl=%2Flogging
 splunk_prod_url,https://splunksearch-prod-gcp.gdn-app.com/
 figma_url,https://www.figma.com/
-zookeeper_path,/Users/tushargupta/Downloads/kafka_2.12-2.7.0/bin/ nohup ./zookeeper-server-start.sh ../config/zookeeper.properties &
-kafka_path,/Users/tushargupta/Downloads/kafka_2.12-2.7.0/bin/ nohup ./zookeeper-server-start.sh ../config/zookeeper.properties &
-redis_path,/Users/tushargupta/Downloads/redis/6.0.6/bin/ nohup ./redis-server & | nohup ./redis-cli & | nohup ./redis-sentinel /Users/tushargupta/Desktop/sentinel.conf &
-solr_path,/usr/local/Cellar/solr/8.8.1/libexec/ nohup ./solr start -cloud  &
-tomcat_path,/Users/tushargupta/Downloads/apache-tomcat-8.5.31/bin/ nohup ./catalina.sh jpda start &
-airflow_path,/Users/tushargupta/airflow nohup airflow webserver -p 8083 & | nohup airflow scheduler &
-jmeter_path,nohup jmeter &
