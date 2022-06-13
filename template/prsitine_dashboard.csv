@@ -1,6 +1,6 @@
 Application Name,Environment
 stash,https://stash.gdn-app.com/
-jira,https://jira.gdn-app.com/
+jira,https://gdncomm.atlassian.net/jira/your-work
 greythr,https://quinbay.greythr.com/
 people_hum,https://portal.peoplehum.com/login/
 confluence,https://confluence.gdn-app.com/
@@ -8,12 +8,10 @@ jenkins,https://jenkins-np-gcp.gdn-app.com/
 artifactory,https://artifactory.gdn-app.com/artifactory/webapp/#/artifacts/browse/tree/General/libs-releases-local/com/gdn/ext/catalog/ext-catalog-ui/
 consul_app,http://consulapp-01.dev1.lokal:8500/ui/dev1-cluster/kv/gdn_app_ext_catalog/app.properties/edit
 rundeck_nonprod,https://nonprod-rundeck.gdn-app.com/
-melbourne_qa1,http://melbourne-1.qa1-sg.cld:8080/
-melbourne_qa2,http://melbourne-1.qa2-sg.cld:8090/
 kibana_preprod_url,https://logging-preprod-gcp.gdn-app.com/
 local_artifactory,https://artifactory.gdn-app.com/artifactory/libs-snapshots-local/
 prod_db,https://prod-dbviewernew-gcp.gdn-app.com/query
-req_form,https://forms.office.com/Pages/ResponsePage.aspx?id=_uLW8AXwRkCNwRZmi-HeUm9yGT717PhPjRrpyaVRvoxUNUgzRkpXV1pCMFdETkk0OUVFSTMyUUhURS4u
+req_form,https://account.blibli.com/login?service=https://copenhagen.gdn-app.com/auth/verify
 prod_GCP,https://console.cloud.google.com/kubernetes/deployment/asia-southeast1/gke-prod-sg/merchandising/ext-catalog/overview?authuser=0&project=gke-prod-98053
 vienna_prod, https://chernobyl.gdn-app.com/project/359
 newrlic_url,https://login.newrelic.com/
@@ -23,3 +21,4 @@ sonar_url,https://sonar.gdn-app.com/sessions/new
 kibana_qa1_url,https://logging-qa1-gcp.gdn-app.com/login?nextUrl=%2Flogging
 splunk_prod_url,https://splunksearch-prod-gcp.gdn-app.com/
 prod_rundeck,https://rundeck-prod-gcp.gdn-app.com/menu/home
+kibana_prod_url,https://logging-prod-gcp.gdn-app.com/login?nextUrl=%2Fapp%2Fkibana#/error/url-overflow
